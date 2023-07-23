@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+        <PackageReference Include="SonarAnalyzer.CSharp" Version="8.43.0.51858" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\TemplateCQRS.Shared\TemplateCQRS.Shared.csproj" />
+    </ItemGroup>
+</Project>

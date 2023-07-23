@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "QwuVr+PHekOHwtY/CV6GXqOJMosVSOXS9FyUYpZ4N19VhyqfDAcDiC+it0XNwF1O+Z+O3ta9DaPNdtXVYAZ2zA==",
+  "success": true,
+  "projectFilePath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/sonaranalyzer.csharp/8.43.0.51858/sonaranalyzer.csharp.8.43.0.51858.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jViCvF4c+gyTo4DcWMFMJ1vymCC26gfA2gZRHckeFEjZmzszVJme5CvaSwhVpJLqUXWp09f2eUqp9bDm9v0sOA==",
+  "success": true,
+  "projectFilePath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/Users/erikabanto/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

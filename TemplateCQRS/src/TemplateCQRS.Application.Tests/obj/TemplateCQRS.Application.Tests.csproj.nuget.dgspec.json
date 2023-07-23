@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application.Tests/TemplateCQRS.Application.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application.Tests/TemplateCQRS.Application.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application.Tests/TemplateCQRS.Application.Tests.csproj",
+        "projectName": "TemplateCQRS.Application.Tests",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application.Tests/TemplateCQRS.Application.Tests.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/TemplateCQRS.Application.csproj": {
+                "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/TemplateCQRS.Application.csproj"
+              },
+              "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj": {
+                "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/TemplateCQRS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/TemplateCQRS.Application.csproj",
+        "projectName": "TemplateCQRS.Application",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/TemplateCQRS.Application.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj": {
+                "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj"
+              },
+              "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj": {
+                "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj",
+        "projectName": "TemplateCQRS.Base.Tests",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "AutoFixture.AutoNSubstitute": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Nsubstitute": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj",
+        "projectName": "TemplateCQRS.Domain",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/TemplateCQRS.Domain.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj": {
+                "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "target": "Package",
+              "version": "[8.43.0.51858, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj",
+        "projectName": "TemplateCQRS.Shared",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/TemplateCQRS.Shared.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

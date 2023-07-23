@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj",
+        "projectName": "TemplateCQRS.Base.Tests",
+        "projectPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/TemplateCQRS.Base.Tests.csproj",
+        "packagesPath": "/Users/erikabanto/.nuget/packages/",
+        "outputPath": "/Users/erikabanto/Documents/Git/TemplateCQRS/TemplateCQRS/src/TemplateCQRS.Base.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikabanto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "AutoFixture.AutoNSubstitute": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Nsubstitute": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
